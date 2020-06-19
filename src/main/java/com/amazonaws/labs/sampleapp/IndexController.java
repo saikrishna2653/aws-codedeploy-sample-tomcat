@@ -87,6 +87,7 @@ public class IndexController {
                 for (final com.amazonaws.services.autoscaling.model.Instance instance : autoScalingGroup.getInstances()) {
                     LOGGER.info("Found instance " + instance.getInstanceId());
                     instanceIds.add(instance.getInstanceId());
+                    instanceIds.add(instance.getInstanceId());
                 }
             }
         }
